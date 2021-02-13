@@ -1,0 +1,151 @@
+:root {
+    --clr-morado: #424293;
+    --clr-morado-light: #5656b3;
+    --clr-naranja: #ff5c26;
+    --fnt-roboto: 'Roboto', sans-serif;
+    --fnt-open-sans: 'Open Sans', sans-serif;
+    --fnt-shadows: 'Shadows Into Light Two', cursive;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: min(90%, 70.5rem);
+}
+
+header {
+    font-family: var(--fnt-roboto);
+}
+
+.top-bar {
+    color: var(--clr-naranja);
+    font-weight: 700;
+}
+
+.logo {
+    width: 80%;
+}
+
+.nav-link {
+    padding: 11px 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    letter-spacing: .6px;
+    color: var(--clr-morado);
+}
+
+.nav-link:hover, .nav-link:active {
+    background-color: var(--clr-morado);
+    color: white;
+}
+
+.hero1-slide {
+    font-family: var(--fnt-roboto);
+    color: white;
+    line-height: 1;
+    text-align: center;
+}
+.hero1-slide h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.hero1-slide p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.under-slider {
+    font-family: var(--fnt-roboto);
+    color: white;
+    background-color: #171717;
+    font-size: 1.3rem;
+    height: 120px;
+}
+
+.under-slider p {
+    font-family: inherit;
+    color: #999;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.under-slider em {
+    font-family: var(--fnt-shadows);
+    color: var(--clr-morado);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.under-slider button {
+    background-color: var(--clr-morado);
+    color: white;
+    padding: 13px;
+    border-radius: 8px;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.under-slider button:hover {
+    background-color: var(--clr-morado-light);
+}
+
+main {
+    font-family: var(--fnt-open-sans);;
+}
+
+main h1 {
+    font-size: 2rem;
+}
+
+main p {
+    color: #777;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+/* slider */
+.swiper-container {
+    width: 100%;
+    height: 450px;
+  }
+
+.swiper-slide {
+    background-image: url('../img/fondo1.jpg');
+    background-size: cover;
+}
+
+.img-slide-1 {
+    width: 580px;
+}
+
+.img-slide-2 {
+    width: 360px;
+}
+  
