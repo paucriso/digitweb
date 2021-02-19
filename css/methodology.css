@@ -1,0 +1,55 @@
+.methodology {
+  background-image: url('../img/concept.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.methodology__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.methodology__image {
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+.image--estrategia {
+  margin-top: 100px;
+}
+
+.image--diseno {
+  margin-top: 100px;
+}
+
+.image--big {
+}
+
+.methodology__icon {
+  color: lightgray;
+  font-size: 1.5rem;
+}
+
+.icon--sun {
+  position: absolute;
+  left: 150px;
+  top: 65px;
+}
+
+.icon--cloud {
+  position: absolute;
+  left: 550px;
+  top: 65px;
+  animation-name: subebaja;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes subebaja {
+  from {top: 65px;}
+  to {top:85px;}
+}
